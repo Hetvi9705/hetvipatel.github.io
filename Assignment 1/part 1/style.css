@@ -22,3 +22,24 @@ body {
   p, li, dd, dt, address {
     line-height: 1.5;
   }
+
+  /* Default size for larger screens */
+.responsive-img {
+  width: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
