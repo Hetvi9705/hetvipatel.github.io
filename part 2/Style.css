@@ -1,0 +1,16 @@
+/* 
+Name: Hetvi Patel
+File: style.css
+Date: 17 October 2024
+This CSS file contains the styles to create a fancy box.
+*/
+
+body {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    height: 100vh;           
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; 
+  }
