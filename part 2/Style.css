@@ -40,3 +40,18 @@ body {
     right: 0;
     bottom: 0;
     border-radius: 10px;
+  }
+
+    .fancy-box::before {
+        box-shadow: inset -5px -5px 10px rgba(255, 255, 255, 0.5);
+      }
+      
+     
+      .fancy-box::after {
+        box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.5);
+      }
+      
+     
+      .fancy-box {
+        background: linear-gradient(to bottom right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0.2) 100%), #3498db;
+      }
