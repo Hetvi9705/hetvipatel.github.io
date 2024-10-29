@@ -84,3 +84,8 @@ collisionDetect() {
         }
     }
 }
+for (const ball of balls) {
+    ball.draw();
+    ball.update();
+    ball.collisionDetect(); // Check for collisions
+}
